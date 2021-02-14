@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <form action="LogInServlet.java" method="post">
+    <form action="LogInServlet" method="post">
         Student ID: <input type="text" name="ID"/>
         Password : <input type="password" name="Password" />
         <input type="submit" id="submit" name="log in" />

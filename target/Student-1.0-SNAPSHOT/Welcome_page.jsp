@@ -1,13 +1,23 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
-<!DOCTYPE html>
+<%--
+  Created by IntelliJ IDEA.
+  User: fangshicheng
+  Date: 2021/2/13
+  Time: 19:52
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>log in</title>
+
 </head>
 <body>
-<h1><%= "Find your grade" %>
-</h1>
-<br/>
-<a href="hello-servlet">Hello Servlet</a>
+
+<form action= "ImportGradeServlet" method="post" enctype="multipart/form-data">
+
+    <input type="file" name="upload" id="" value="" />
+    <input type="submit" id="submit"/>
+</form>
+
 </body>
 </html>
